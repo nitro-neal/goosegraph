@@ -1,0 +1,13 @@
+type ExampleEntity @entity {
+  id: ID!
+  count: BigInt!
+  user: Bytes! # address
+  pid: BigInt! # uint256
+}
+
+type GooseAccount @entity {
+  id: ID!
+  count: BigInt!
+  user: Bytes! # address
+  pid: BigInt! # uint256
+}
